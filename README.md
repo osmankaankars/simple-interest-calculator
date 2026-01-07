@@ -16,3 +16,14 @@ This project is built using plain **HTML, CSS, and JavaScript** and demonstrates
 - JavaScript (Vanilla JS)
 
 ## 📂 Project Structure
+- index.html
+- style.css
+- script.js
+- README.md
+
+
+## ▶️ How to Run
+Simply open the `index.html` file in any modern web browser.
+
+## 🎯 Purpose
+This project was developed as part of an IBM / Coursera hands-on lab to practice fundamental front-end web development concepts.
