@@ -1,29 +1,37 @@
 # Simple Interest Calculator
 
-A simple and interactive web application that calculates **simple interest** based on user input.
+> A small IBM/Coursera front-end lab demonstrating form input, validation, and DOM updates with plain HTML, CSS, and JavaScript.
 
-This project is built using plain **HTML, CSS, and JavaScript** and demonstrates basic DOM manipulation, form validation, and user interaction.
+## Features
 
-## 🚀 Features
-- Principal amount validation (must be a positive number)
-- Interest rate slider with live value update
-- Calculates final amount and future year dynamically
-- Clean and simple user interface
+- Validates positive principal and whole-year inputs.
+- Updates the displayed rate from a range input.
+- Calculates simple interest and the resulting amount.
+- Shows the calendar year in which the selected term ends.
 
-## 🛠️ Technologies Used
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
+## Run locally
 
-## 📂 Project Structure
-- index.html
-- style.css
-- script.js
-- README.md
+No build step is required. Clone the repository and open `index.html` in a modern browser:
 
+```bash
+git clone https://github.com/osmankaankars/simple-interest-calculator.git
+cd simple-interest-calculator
+open index.html
+```
 
-## ▶️ How to Run
-Simply open the `index.html` file in any modern web browser.
+## Calculation
 
-## 🎯 Purpose
-This project was developed as part of an IBM / Coursera hands-on lab to practice fundamental front-end web development concepts.
+The page applies the standard simple-interest formula:
+
+```text
+interest = principal * annual rate * years / 100
+final amount = principal + interest
+```
+
+## Project status
+
+Completed learning exercise retained as an example of foundational browser-side JavaScript. It is not a financial calculator for production or advisory use.
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).
